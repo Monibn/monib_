@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Monib Mohammadi Nik — Python, AI & Game Developer</title>
+    <meta name="description" content="Monib Mohammadi Nik — توسعه‌دهنده Python، هوش مصنوعی و بازی؛ ساخت محصولات مینیمال، مقیاس‌پذیر و قابل اتکا با تمرکز بر تجربه کاربری موبایل." />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Monib Mohammadi Nik — Python, AI & Game Developer" />
+    <meta property="og:description" content="محصولات مینیمال، مقیاس‌پذیر و قابل اتکا با تمرکز بر تجربه کاربری موبایل." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="https://example.com/assets/og-cover.webp" />
+
+    <!-- Fonts: preconnect + swap -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        /* عکس پروفایل در منو */
+        /* عکس Hero */
+        
+        .avatar {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px;
+        }
+    </style>
+
+    <!-- JSON-LD Person -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Monib Mohammadi Nik",
+            "jobTitle": "Python, AI & Game Developer",
+            "url": "https://example.com/",
+            "sameAs": [
+                "https://github.com/monibn",
+                "https://www.linkedin.com/",
+                "mailto:your.monibpro@gmail.com",
+                "https://wa.me/09919180423"
+            ]
+        }
+    </script>
+</head>
+
+<body class="lang-fa">
+    <a class="skip-link" href="#main">پرش به محتوا</a>
+
+    <!-- Header / Nav -->
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a href="#hero" class="brand" aria-label="Home">
+                <span class="logo" aria-hidden="true">MN</span>
+                <span class="brand-text">Monib</span>
+            </a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-controls="site-nav" aria-expanded="false">
+          <span class="hamburger-box" aria-hidden="true">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+            <nav id="site-nav" class="nav-drawer" aria-label="Primary">
+                <!-- عکس منو -->
+                <!-- <img src="img/profile.png" alt="Monib Mohammadi" class="profile-pic" /> -->
+
+
+                <ul>
+
+                    <li><a href="#hero" data-i18n="nav.home">خانه</a></li>
+                    <li><a href="#about" data-i18n="nav.about">درباره</a></li>
+                    <li><a href="#skills" data-i18n="nav.skills">مهارت‌ها</a></li>
+                    <li><a href="#projects" data-i18n="nav.projects">پروژه‌ها</a></li>
+                    <li><a href="#blog" data-i18n="nav.blog">بلاگ</a></li>
+                    <li><a href="#testimonials" data-i18n="nav.testimonials">دیدگاه‌ها</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">ارتباط</a></li>
+                </ul>
+
+                <div class="lang-switch" role="group" aria-label="Switch language">
+                    <button class="chip" data-lang="fa" aria-pressed="true">FA</button>
+                    <button class="chip" data-lang="en" aria-pressed="false">EN</button>
+                    <button class="chip" data-lang="de" aria-pressed="false">DE</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero -->
+        <section id="hero" class="section hero" aria-label="Hero">
+            <div class="container hero-inner">
+                <!-- عکس Hero -->
+                <img src="img/profile.png" alt="پرتره منیب محمدی نیک" class="avatar" />
+
+                <div class="hero-text">
+                    <h1>
+                        Monib Mohammadi Nik —
+                        <span data-i18n="title.role">Python, AI &amp; Game Developer</span>
+                    </h1>
+                    <p class="tagline" data-i18n="hero.tagline">
+                        من محصولات مینیمال و مقیاس‌پذیر می‌سازم که روی تجربهٔ کاربری موبایل وسواس دارند.
+                    </p>
+                    <p class="intro" data-i18n="hero.intro">
+                        ماموریتم ساده است: حل مسئله‌های واقعی با طراحی روشن، کدنویسی تمیز، و استانداردهای دسترس‌پذیری. با ترکیب Python، هوش مصنوعی و طراحی سیستم، ایده‌ها را سریع به محصول قابل اتکا تبدیل می‌کنم. تفاوت من تمرکز بر عملکرد موبایل، سادگی بی‌نقص و جزئیات است.
+                    </p>
+
+                    <div class="cta-row">
+                        <a href="#contact" class="btn btn-primary" data-i18n="cta.hire">برای همکاری پیام بده</a>
+                        <a href="#projects" class="btn btn-ghost" data-i18n="cta.viewWork">مشاهده پروژه‌ها</a>
+                    </div>
+
+                    <ul class="socials" aria-label="Social links">
+                        <li>
+                            <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">
+                                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.1.82-.26.82-.58l-.02-2.27c-3.34.73-4.04-1.61-4.04-1.61-.55-1.41-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.8 1.3 3.48.99.11-.78.42-1.3.76-1.6-2.67-.3-5.48-1.33-5.48-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.9 1.24 3.22 0 4.61-2.82 5.62-5.5 5.92.43.38.81 1.11.81 2.25l-.01 3.34c0 .32.21.69.82.57A12 12 0 0 0 12 .5Z"/></svg>
+                                <span class="visually-hidden">GitHub</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5Zm.02 5.99H2V22h3V9.49ZM8 9.5h2.87v1.71h.04c.4-.76 1.36-1.56 2.8-1.56C17.09 9.65 18 11.4 18 14.09V22h-3v-7.02c0-1.67-.6-2.81-2.1-2.81-1.14 0-1.82.77-2.12 1.51-.11.26-.14.62-.14.99V22H8V9.5Z"/></svg>
+                                <span class="visually-hidden">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:your.email@example.com" aria-label="Email">
+                                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
+                                <span class="visually-hidden">Email</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/your-number" target="_blank" rel="noopener" aria-label="WhatsApp">
+                                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.94 11.94 0 0 0 12.02 0C5.4 0 .02 5.38.02 12c0 2.11.55 4.18 1.6 6.01L0 24l6.14-1.6A12 12 0 0 0 12.02 24c6.62 0 12-5.38 12-12 0-3.2-1.25-6.21-3.5-8.52Zm-8.5 18.02c-1.91 0-3.78-.52-5.4-1.5l-.39-.23-3.64.95.97-3.54-.25-.41A9.9 9.9 0 0 1 2.1 12C2.1 6.49 6.5 2.1 12.03 2.1c2.64 0 5.11 1.03 6.97 2.9a9.8 9.8 0 0 1 2.9 7c0 5.52-4.4 9.9-9.88 9.9Zm5.66-7.4c-.31-.16-1.82-.9-2.1-1-.28-.1-.48-.16-.69.16-.21.31-.8 1-.99 1.21-.18.2-.36.22-.67.07-.31-.16-1.3-.48-2.47-1.53-.91-.81-1.52-1.8-1.7-2.1-.18-.31-.02-.47.14-.63.14-.14.31-.36.47-.54.16-.18.21-.31.31-.52.1-.2.05-.39-.02-.54-.07-.16-.69-1.66-.95-2.28-.25-.6-.51-.52-.69-.53l-.59-.01c-.2 0-.52.07-.79.36-.27.31-1.04 1.01-1.04 2.47s1.07 2.87 1.22 3.08c.16.2 2.1 3.2 5.09 4.49.71.31 1.27.5 1.7.64.71.22 1.36.19 1.87.12.57-.09 1.82-.75 2.08-1.48.26-.73.26-1.35.18-1.48-.07-.14-.26-.21-.57-.36Z"/></svg>
+                                <span class="visually-hidden">WhatsApp</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section about" aria-label="About">
+            <div class="container">
+                <h2 data-i18n="about.title">درباره من</h2>
+                <p data-i18n="about.p1">
+                    من با Python و فریم‌ورک‌هایی مثل Flask و APIهای Hugging Face، پروژه‌های هوش مصنوعی را از ایده تا اجرا هدایت می‌کنم. در بازی‌سازی با Pygame تجربه دارم و معماری سیستم‌های مقیاس‌پذیر و امن را طراحی می‌کنم. ارزش‌های من: سادگی، وضوح، و احترام به زمان کاربر.
+                    هر تصمیم طراحی باید به تجربه‌ای ملموس برای کاربر منجر شود.
+                </p>
+                <p data-i18n="about.p2">
+                    ارزش‌های من: سادگی، وضوح، و احترام به زمان کاربر. هر تصمیم طراحی باید به یک نتیجه‌ی ملموس برای کاربر منجر شود.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section skills" aria-label="Skills">
+            <div class="container">
+                <h2 data-i18n="skills.title">مهارت‌ها</h2>
+                <div class="carousel-controls">
+                    <button class="ctrl prev" aria-label="Previous skills">&#9666;</button>
+                    <button class="ctrl next" aria-label="Next skills">&#9656;</button>
+                </div>
+                <ul class="skill-strip" tabindex="0" aria-label="Skills list">
+                    <li class="chip-lg">Python</li>
+                    <li class="chip-lg">Flask</li>
+                    <li class="chip-lg">Hugging Face APIs</li>
+                    <li class="chip-lg">Pygame</li>
+                    <li class="chip-lg" data-i18n="skills.systemDesign">System Design</li>
+                    <li class="chip-lg" data-i18n="skills.debugging">Debugging</li>
+                    <li class="chip-lg" data-i18n="skills.accessibility">Accessibility</li>
+                    <li class="chip-lg">i18n</li>
+                    <li class="chip-lg" data-i18n="skills.performance">Performance</li>
+                </ul>
+
+                <div class="tags" aria-label="Industries">
+                    <span class="tag" data-i18n="industries.ai">هوش مصنوعی</span>
+                    <span class="tag" data-i18n="industries.game">گیم</span>
+                    <span class="tag" data-i18n="industries.edu">محصولات آموزشی</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section projects" aria-label="Projects">
+            <div class="container">
+                <h2 data-i18n="projects.title">پروژه‌ها</h2>
+                <p class="section-sub" data-i18n="projects.subtitle">
+                    گزیده‌ای کوتاه، واقعی و کاربردی — مثل سایت‌های شخصی مینیمال خارجی.
+                </p>
+
+                <div class="cards scroller" aria-live="polite">
+                    <article class="card">
+                        <div class="card-body">
+                            <h3>AI Chat Microservice</h3>
+                            <p data-i18n="projects.p1.desc">
+                                میکروسرویس چت بر پایه Flask با ادغام APIهای Hugging Face، کش لایه‌ای و ریت‌لیمیتینگ. تمرکز بر زمان پاسخ کوتاه روی موبایل.
+                            </p>
+                            <ul class="meta">
+                                <li>Flask</li>
+                                <li>HF Inference</li>
+                                <li>Redis</li>
+                            </ul>
+                            <div class="card-actions">
+                                <a class="btn btn-ghost" href="#" target="_blank" rel="noopener" data-i18n="actions.viewCode">کد</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-body">
+                            <h3>Kraak: Awakening (Demo)</h3>
+                            <p data-i18n="projects.p2.desc">
+                                دمو بازی تک‌نفره با Pygame، فیزیک سبک، UI مینیمال و لوپ گیم‌پلی روان برای موبایل/دسکتاپ.
+                            </p>
+                            <ul class="meta">
+                                <li>Pygame</li>
+                                <li>Level Design</li>
+                                <li>UX</li>
+                            </ul>
+                            <div class="card-actions">
+                                <a class="btn btn-ghost" href="#" target="_blank" rel="noopener" data-i18n="actions.viewDemo">دمو</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-body">
+                            <h3>Realtime Chat Architecture</h3>
+                            <p data-i18n="projects.p3.desc">
+                                طراحی سیستم چت بلادرنگ با WebSocket، کانال‌سازی، مقیاس‌پذیری افقی و امنیت لایه‌ای.
+                            </p>
+                            <ul class="meta">
+                                <li>System Design</li>
+                                <li>WebSocket</li>
+                                <li>Security</li>
+                            </ul>
+                            <div class="card-actions">
+                                <a class="btn btn-ghost" href="#" target="_blank" rel="noopener" data-i18n="actions.readMore">جزئیات</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section id="blog" class="section blog" aria-label="Blog">
+            <div class="container">
+                <h2 data-i18n="blog.title">بلاگ</h2>
+                <ul class="list">
+                    <li class="post">
+                        <a href="#" class="post-card">
+                            <h3 data-i18n="blog.p1.title">چطور LCP موبایل را زیر ۲.۵s نگه داریم</h3>
+                            <p data-i18n="blog.p1.excerpt">راهنمایی عملی برای بهینه‌سازی تصاویر، فونت‌ها و اسکریپت‌ها در پروژه‌های سبک.</p>
+                            <span class="more" data-i18n="actions.read">بیشتر بخوانید</span>
+                        </a>
+                    </li>
+                    <li class="post">
+                        <a href="#" class="post-card">
+                            <h3 data-i18n="blog.p2.title">ادغام امن Hugging Face در Flask</h3>
+                            <p data-i18n="blog.p2.excerpt">مدیریت توکن، ریت‌لیمیتینگ، و الگوهای کَش برای پاسخ‌های سریع‌تر.</p>
+                            <span class="more" data-i18n="actions.read">بیشتر بخوانید</span>
+                        </a>
+                    </li>
+                    <li class="post">
+                        <a href="#" class="post-card">
+                            <h3 data-i18n="blog.p3.title">درس‌هایی از ساخت یک دمو با Pygame</h3>
+                            <p data-i18n="blog.p3.excerpt">بالانس بین سادگی، حس کنترل و چالش در گیم‌پلی.</p>
+                            <span class="more" data-i18n="actions.read">بیشتر بخوانید</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials" class="section testimonials" aria-label="Testimonials">
+            <div class="container">
+                <h2 data-i18n="testimonials.title">دیدگاه‌ها</h2>
+                <div class="carousel-controls">
+                    <button class="ctrl prev" aria-label="Previous testimonial">&#9666;</button>
+                    <button class="ctrl next" aria-label="Next testimonial">&#9656;</button>
+                </div>
+
+                <div class="t-strip" tabindex="0" aria-roledescription="carousel" aria-label="Testimonials">
+                    <blockquote class="t-card">
+                        <p data-i18n="testimonials.t1.text">تحویل تمیز، سریع و دقیق. روی جزئیات موبایل وسواس دارد.</p>
+                        <footer>— <cite data-i18n="testimonials.t1.author">همکار فنی</cite></footer>
+                    </blockquote>
+                    <blockquote class="t-card">
+                        <p data-i18n="testimonials.t2.text">از ایده تا MVP ظرف چند هفته؛ بدون اضافه‌کاری غیرضروری.</p>
+                        <footer>— <cite data-i18n="testimonials.t2.author">کارفرما</cite></footer>
+                    </blockquote>
+                    <blockquote class="t-card">
+                        <p data-i18n="testimonials.t3.text">طراحی سیستم منسجم و قابل توسعه؛ مستندسازی شفاف.</p>
+                        <footer>— <cite data-i18n="testimonials.t3.author">منتور</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section contact" aria-label="Contact">
+            <div class="container">
+                <h2 data-i18n="contact.title">ارتباط</h2>
+                <p class="section-sub" data-i18n="contact.subtitle">
+                    سریع‌ترین راه: پیام واتس‌اپ یا ایمیل. فرم زیر هم مستقیماً پیام شما را آماده ارسال می‌کند.
+                </p>
+
+                <div class="contact-actions">
+                    <a class="btn btn-primary" href="https://wa.me/your-number" target="_blank" rel="noopener" data-i18n="contact.whatsapp">پیام در واتس‌اپ</a>
+                    <a class="btn btn-ghost" href="mailto:your.email@example.com" data-i18n="contact.email">ارسال ایمیل</a>
+                </div>
+
+                <form id="contactForm" novalidate>
+                    <div class="field">
+                        <label for="name" data-i18n="form.name.label">نام</label>
+                        <input id="name" name="name" type="text" inputmode="text" autocomplete="name" required aria-describedby="nameHelp" />
+                        <small id="nameHelp" data-i18n="form.name.help">لطفاً نام خود را وارد کنید.</small>
+                    </div>
+
+                    <div class="field">
+                        <label for="email" data-i18n="form.email.label">ایمیل</label>
+                        <input id="email" name="email" type="email" inputmode="email" autocomplete="email" required aria-describedby="emailHelp" />
+                        <small id="emailHelp" data-i18n="form.email.help">ایمیل معتبر وارد کنید.</small>
+                    </div>
+
+                    <div class="field">
+                        <label for="message" data-i18n="form.message.label">پیام</label>
+                        <textarea id="message" name="message" rows="4" minlength="10" required aria-describedby="messageHelp"></textarea>
+                        <small id="messageHelp" data-i18n="form.message.help">حداقل ۱۰ کاراکتر.</small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block" data-i18n="form.submit">ارسال</button>
+                    <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Monib Mohammadi Nik.</p>
+            <p class="small" data-i18n="footer.rights">همه حقوق محفوظ است.</p>
+        </div>
+    </footer>
+
+    <!-- App -->
+    <script type="module" src="app.js" defer></script>
+</body>
+
+</html>
